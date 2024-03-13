@@ -12,4 +12,4 @@
 
 ✅ All Lecture Code in Separate Files and Index File
 
-https://user-images.githubusercontent.com/71000042/210425167-f8fdcc84-4117-4c14-8952-d82402ab95f5.jpg
+![Dot Batch](https://user-images.githubusercontent.com/71000042/210425167-f8fdcc84-4117-4c14-8952-d82402ab95f5.jpg)
