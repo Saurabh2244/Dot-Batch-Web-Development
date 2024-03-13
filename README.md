@@ -1,6 +1,6 @@
 # MERN Stack Development Course (@Dot Batch) By Love Babbar Bhaiya
 
-✅ Class Codes and Practice Code
+✅ Class Codes and Practice Code 
 ✅ Handwritten Notes
 ✅ Home Work
 ✅ Projects
