@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project3</title>
+
+    <style>
+      #interest{
+          display: inline;
+      }
+
+      #codeRating{
+          display: inline;
+      }
+  </style>
+  </head>
+  <body>
+    <!-- Project 3: Form -->
+    <h1>This is created by <i>Saurabh Chaudhari</i></h1>
+    <h1>Placement Form</h1>
+    <form action="" enctype="multipart/form-data">
+        <div class="basic detail">
+            <label for="fName">First Name: </label>
+            <input type="text" name="" id="fName" size="10" required>
+            
+            <br> <br>
+
+            <label for="lName">Last Name: </label>
+            <input type="text" name="" id="lName" size="10" required>
+        </div>
+
+        <div class="contact detail">
+            <br> 
+            <label for="mail">Email: </label>
+            <input type="email" name="" id="mail" required>
+
+            <br> <br>
+            <label for="phone">Contact Number: </label>
+            <input type="number" name="" id="phone" required>
+        </div>
+
+        <div class="edu detail">
+            <br> 
+            <label for="dob">DOB</label>
+            <input type="date" name="" id="dob" required>
+
+            <br> <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" required name="gender" id="gender" value="male">Male
+            <input type="radio" required name="gender" value="female">Female
+            <input type="radio" required name="gender" value="other">Other
+
+        </div>
+
+        <div>
+            <br>
+            <label for="branch">Branch: </label>
+            <select name="" id="branch" required>
+                <optgroup label="Select Branch" >
+                    <option value="">Select Branch</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EE">EE</option>
+                    <option value="ME">ME</option>
+                    <option value="CE">CE</option>
+                    <option value="CH">CH</option>
+                    <option value="CR">CR</option>
+                    <option value="MM">MM</option>
+                    <option value="MN">MN</option>
+
+                </optgroup>
+            </select>
+
+            <br> <br>
+            <label for="interest">Area of Interest: </label>
+            <div id="interest">
+                <input type="checkbox" name="FTE" id="">Software
+                <input type="checkbox" name="FTE" id="">Core
+                <input type="checkbox" name="FTE" id="">Analytics
+                <input type="checkbox" name="FTE" id="">Banking
+                <input type="checkbox" name="FTE" id="">Management
+            </div>
+
+            <br> <br>
+            <label for="resume">Upload Resume: </label>
+            <input type="file" name="" id="resume">
+
+        </div>
+
+        <div class="rating">
+            <br>
+            <label for="codeRating">DSA Rating: </label>
+            <div id="codeRating">
+                <input type="radio" name="rate" value="1">1
+                <input type="radio" name="rate" value="2">2
+                <input type="radio" name="rate" value="3">3
+                <input type="radio" name="rate" value="4">4
+                <input type="radio" name="rate" value="5">5
+            </div>
+
+            <br> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Why we hire you?"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" name="" id="" value="Submit">
+            <input type="reset" name="" id="" value="Reset">
+        </div>
+
+        <div class="icon">
+            
+        </div>
+    </form>
+</body>
+</html>
